@@ -22,7 +22,9 @@ export const Avatar = styled.img`
     width: 200px;
     margin-right: auto;
     margin-left: auto;
-    border-radius:50%;`;
+    border-radius:50%;
+    background-color: #4a4a8761;
+`;
 
 
 export const Name = styled.p`

@@ -8,8 +8,13 @@ import friends from 'data/friends';
 import transactions from 'data/transactions';
 
 export const App = () => {
+
   return (
-    <div>
+    <div
+    style={{
+        paddingTop: '30px',
+      paddingBottom: '30px'
+      }}>
        <Profile
         username={user.username}
         tag={user.tag}

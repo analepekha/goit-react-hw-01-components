@@ -16,15 +16,20 @@ export const Title = styled.h2`
 
 export const StatList = styled.ul`
     display: flex;
-    justify-content: space-evenly;
-    // width:400px;
+
     background: hsl(206deg 19% 84%);
     `;
 
 export const Item = styled.li`
     display: flex;
     flex-direction: column;
-    align-items: center;`;
+    align-items: center;
+    width:60px;
+
+    &:not(:last-child){
+        border-right: 1px solid white;
+    }
+    `;
 
 export const Label = styled.span`
     margin-bottom: 10px;`;

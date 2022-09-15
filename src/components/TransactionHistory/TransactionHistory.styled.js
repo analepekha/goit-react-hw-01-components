@@ -30,7 +30,7 @@ export const Row = styled.tbody`
     text-align: center;
     
     &:nth-child(2n+1) {
-        background: hsl(180deg 27% 94%);
+        background: hsl(180deg 27% 94%);}
 `;
 
 export const Content = styled.td`
